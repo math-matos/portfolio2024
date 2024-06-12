@@ -5,26 +5,30 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-function classNames(...classes: any[]) {
-  return classes.filter(Boolean).join(" ");
-}
-
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const scrollToSection = (id: string) => {
+    const targetElement = document.getElementById(id);
+
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <header className="bg-white">
+    <header className="bg-white dark:bg-slate-900">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">prodigiocode</span>
             <img
               className="h-8 w-auto"
               src="https://portfolio2023-math-matos.vercel.app/assets/image/logo-prodigiocode.png"
-              alt=""
+              alt="prodigiocode"
             />
           </a>
         </div>
@@ -41,20 +45,21 @@ export default function Header() {
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
-            href="#"
-            className="pr-7 text-sm font-semibold leading-6 text-gray-900"
+            href="#about-me"
+            onClick={() => scrollToSection("about-me")}
+            className="pr-7 text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
-            Who I am
+            About Me
           </a>
           <a
             href="#"
-            className="pr-7 text-sm font-semibold leading-6 text-gray-900"
+            className="pr-7 text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
             Experiences
           </a>
           <a
             href="#"
-            className="pr-7 text-sm font-semibold leading-6 text-gray-900"
+            className="pr-7 text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
             Projects
           </a>
@@ -72,8 +77,8 @@ export default function Header() {
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
+                src="https://portfolio2023-math-matos.vercel.app/assets/image/logo-prodigiocode.png"
+                alt="prodigiocode"
               />
             </a>
             <button
@@ -92,27 +97,19 @@ export default function Header() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Features
+                  About Me
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Marketplace
+                  Work Experiences
                 </a>
                 <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Company
-                </a>
-              </div>
-              <div className="py-6">
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Log in
+                  Projects
                 </a>
               </div>
             </div>
