@@ -1,0 +1,9 @@
+{
+  "introducing": "Hey! 👋 I AM MATHEUS",
+  "description": "Passionate about programming since the age of 15, where I started with games like 'code combat', I am a Brazilian born in 2003. I currently study Software Engineering and work as a Software Developer at the largest aircraft manufacturer in Latin America. I love challenges, especially those that force me out of my comfort zone, because I believe that it is in these moments that I evolve and learn the most. I'm a dedicated student, a lover of e-sports and, in my spare time, I like to share knowledge on social media. I'm also a geek/anime enthusiast and a gym lover 💪🏻🚀.",
+  "experiences": "Work Experiences",
+  "project1": "Restaurant integrated with API, made in React, NodeJS and Vite.",
+  "project2": "To-do list to remind you what to do, made in React and Vite.",
+  "project3": "Application developed in conjunction with Schneider Electric to help its employees commute to work.",
+  "see_project": "Visualize project"
+}

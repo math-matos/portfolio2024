@@ -1,0 +1,9 @@
+{
+  "introducing": "Olá! 👋 EU SOU O MATHEUS",
+  "description": "Apaixonado por programação desde os 15 anos, onde comecei com jogos como 'code combat', sou um brasileiro nascido em 2003. Atualmente, estudo Engenharia de Software e atuo como Desenvolvedor de Software na maior fabricante de aeronaves da América Latina. Adoro desafios, especialmente aqueles que me forçam a sair da minha zona de conforto, pois acredito que é nesses momentos que mais evoluo e aprendo. Sou um estudante dedicado, amante de e-sports e, nas horas vagas, gosto de compartilhar conhecimento nas redes sociais. Também sou entusiasta no mundo geek/animes e um amante de academia 💪🏻🚀.",
+  "experiences": "Experiencias",
+  "project1": "Restaurante integrado com API, feito em React, NodeJS e Vite.",
+  "project2": "To-do List para te lembrar oque fazer, feito em React e Vite.",
+  "project3": "Aplicativo desenvolvido em conjunto com a Schneider Electric para ajudar seus funcionários com a locomoção até a empresa.",
+  "see_project": "Visualizar projeto"
+}

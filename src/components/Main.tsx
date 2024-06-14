@@ -27,9 +27,17 @@ export default function Main() {
       transition={{ duration: 1 }}
       className="flex flex-col items-center justify-center pb-20"
     >
-      <div>
-        <h1 className="items-center justify-center gap-3 pt-8 text-center text-8xl font-bold">
-          SOFTWARE <br /> DEVELOPER
+      <div className="flex flex-col items-center justify-center">
+        <motion.img
+          initial={{ opacity: 0, y: -100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="mb-20 w-40"
+          src="https://portfolio2023-math-matos.vercel.app/assets/image/logo-prodigiocode.png"
+          alt="prodigiocode"
+        />
+        <h1 className="items-center justify-center gap-3 text-center text-8xl font-bold">
+          SOFTWARE <br /> ENGINEER
         </h1>
       </div>
       <div className="mt-4 flex justify-center">
@@ -56,7 +64,7 @@ export default function Main() {
           repeatType: "loop",
         }}
       >
-        <FaChevronDown size={24} />
+        <FaChevronDown className="fill-black dark:fill-white" size={24} />
       </motion.button>
     </motion.div>
   );

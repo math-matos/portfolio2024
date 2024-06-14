@@ -5,6 +5,7 @@ import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { useTranslation } from "react-i18next";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -66,6 +67,7 @@ export default function Header() {
           >
             Projects
           </a>
+          {/* <LanguageSwitcher/> */}
         </div>
       </nav>
       <Dialog

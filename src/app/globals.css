@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  @apply w-3;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-lg bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-700;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
