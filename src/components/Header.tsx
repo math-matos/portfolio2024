@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+
 import { Dialog, DialogPanel } from "@headlessui/react";
 
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
@@ -52,13 +53,15 @@ export default function Header() {
             About Me
           </a>
           <a
-            href="#"
+            href="#experiences"
+            onClick={() => scrollToSection("experiences")}
             className="pr-7 text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
             Experiences
           </a>
           <a
-            href="#"
+            href="#projects"
+            onClick={() => scrollToSection("projects")}
             className="pr-7 text-sm font-semibold leading-6 text-gray-900 dark:text-white"
           >
             Projects

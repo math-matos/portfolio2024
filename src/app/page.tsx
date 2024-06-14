@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="text-black dark:bg-slate-900 dark:text-white">
+      <div className="text-black dark:bg-slate-900 dark:text-white pt-52">
         <Main />
         <AboutMe />
         <Experiences />

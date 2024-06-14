@@ -3,7 +3,7 @@ import React from "react";
 export const Experiences = () => {
   return (
     <>
-      <div className="flex justify-center dark:bg-slate-900 mt-10">
+      <div id="experiences" className="flex justify-center dark:bg-slate-900 mt-10">
         <div className="flex-col ">
 
             <div className="flex-col text-center">
@@ -23,7 +23,7 @@ export const Experiences = () => {
 <div className="flex mt-10 items-center">
             <img src="https://portfolio2023-math-matos.vercel.app/assets/image/logo-prodigiocode.png" width={200}/>
         <div className="flex-col justify-start ml-4">
-            <h3>Set 2022 - Nov 2023 (1 ano e 2 meses)</h3>
+            <h3>Set 2022 - Nov 2023</h3>
             <h4>Content Creator - Prodigio Code</h4>
             <p>Stack: ReactJS, TypeScript, NextJS, MySQL, Redux, Jest, Cypress, sass.</p>
         </div>

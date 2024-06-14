@@ -1,15 +1,23 @@
+"use client";
+
 import React from "react";
 import { ExpCard } from "./ExpCard";
 
+import { motion } from "framer-motion";
+
 export const Projects = () => {
   return (
-    <>
-      <div className="mt-10 flex-col text-center">
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+    >
+      <div id="projects" className="mt-20 flex-col text-center">
         <h5 className="font-light">Portfolio</h5>
         <h2 className="mb-10 text-5xl font-bold">Latest Projects</h2>
       </div>
 
-      <div className="grid grid-rows-2 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-rows-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <ExpCard
           title="Food Explorer"
           image="https://portfolio2023-math-matos.vercel.app/assets/image/food-explorer.png"
@@ -31,6 +39,6 @@ export const Projects = () => {
           redirect="https://github.com/math-matos/Food-explorer-mathmatos-final"
         />
       </div>
-    </>
+    </motion.div>
   );
 };

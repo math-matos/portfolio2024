@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <>
-      <div id="about-me" className="mt-10 flex justify-center">
+      <div id="about-me" className="mt-96 flex justify-center">
         <img
           src="https://i.pinimg.com/564x/54/c7/1d/54c71ded46ce42a0c5cdbc11d1954bba.jpg"
           width={250}
