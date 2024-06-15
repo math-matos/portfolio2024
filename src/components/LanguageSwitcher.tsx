@@ -1,4 +1,3 @@
-import { Switch } from "@radix-ui/themes";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -16,7 +15,7 @@ const LanguageSwitcher = () => {
       <p className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
         PT-BR
       </p>
-      <Switch onClick={toggleLanguage} />
+      {/* <Switch onClick={toggleLanguage} /> */}
       <p className="text-sm font-semibold leading-6 text-gray-900 dark:text-white">
         EN
       </p>

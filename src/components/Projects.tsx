@@ -11,7 +11,7 @@ export const Projects = () => {
 
   return (
     <>
-      <div id="projects" className="mt-10 flex-col text-center">
+      <div id="projects" className="flex-col text-center">
         <h5 className="font-light">Portfolio</h5>
         <h2 className="mb-10 text-5xl font-bold">Latest Projects</h2>
       </div>
@@ -20,7 +20,7 @@ export const Projects = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="grid grid-rows-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-rows-1 sm:grid-cols-2 lg:grid-cols-3"
       >
         <ExpCard
           title="Food Explorer"
@@ -31,9 +31,9 @@ export const Projects = () => {
 
         <ExpCard
           title="To-do List"
-          image="https://portfolio2023-math-matos.vercel.app/assets/image/todo-list.png"
+          image="https://github.com/math-matos/typescript-todo-list/assets/106177721/c08419ec-b511-4a56-9430-6094d284c8b3"
           description={t("project2")}
-          redirect="https://github.com/math-matos/Food-explorer-mathmatos-final"
+          redirect="https://github.com/math-matos/typescript-todo-list"
         />
 
         <ExpCard

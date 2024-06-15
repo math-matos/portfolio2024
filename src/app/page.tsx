@@ -7,7 +7,6 @@ import Header from "@/components/Header";
 import Main from "@/components/Main";
 import { Projects } from "@/components/Projects";
 import { Skills } from "@/components/Skills";
-import "@radix-ui/themes/styles.css";
 import "../i18n";
 
 export default function Home() {
