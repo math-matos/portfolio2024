@@ -27,6 +27,7 @@ export const Experiences = () => {
               src="https://www.cnnbrasil.com.br/wp-content/uploads/2021/06/41152_476791AAE41C3D25.jpg"
               width={200}
               className="rounded-3xl"
+              alt=""
             />
             <div className="ml-4 flex-col justify-start">
               <h3>
@@ -51,6 +52,8 @@ export const Experiences = () => {
             <img
               src="https://portfolio2023-math-matos.vercel.app/assets/image/logo-prodigiocode.png"
               width={200}
+              height={200}
+              alt=""
             />
             <div className="ml-4 flex-col justify-start">
               <h3>Set 2022 - Nov 2023</h3>

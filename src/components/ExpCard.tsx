@@ -20,7 +20,7 @@ export const ExpCard = ({
     <div className="mx-auto max-w-96">
       <a href={redirect} target="_blank">
         <h3 className="font-medium">{title}</h3>
-        <img src={image} className="min-h-52 w-96 max-w-96 shadow-lg" />
+        <img src={image} className="min-h-52 w-96 max-w-96 shadow-lg" alt=""/>
         <p className="my-2 font-light">{description}</p>
       </a>
       <a
