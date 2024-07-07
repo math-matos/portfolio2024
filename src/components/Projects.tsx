@@ -42,6 +42,27 @@ export const Projects = () => {
           description={t("project3")}
           redirect="https://github.com/math-matos/Food-explorer-mathmatos-final"
         />
+
+        <ExpCard
+          title="Portfolio 2024"
+          image="https://github.com/math-matos/portfolio2024/assets/106177721/767325d0-66b8-48b6-a15f-55320ba79faf"
+          description={t("project4")}
+          redirect="https://mathmatos.vercel.app/"
+        />
+
+        <ExpCard
+          title="Coming soon..."
+          image="https://bestanimations.com/Site/Construction/under-construction-animated-gif-16.gif"
+          description={t("under_construction")}
+          redirect="https://github.com/math-matos?tab=repositories"
+        />
+
+        <ExpCard
+          title="Coming soon..."
+          image="https://bestanimations.com/Site/Construction/under-construction-animated-gif-16.gif"
+          description={t("under_construction")}
+          redirect="https://github.com/math-matos?tab=repositories"
+        />
       </motion.div>
     </>
   );
