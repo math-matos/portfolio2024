@@ -17,7 +17,7 @@ export default function AboutMe() {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
         id="about-me"
-        className="mt-[210px] flex justify-center pt-20"
+        className="mt-[210px] flex flex-col items-center justify-center pt-20 md:flex-row md:items-start"
       >
         <Image
           src={myPhoto}
@@ -25,7 +25,7 @@ export default function AboutMe() {
           className="rounded-lg shadow-2xl"
           alt="Matheus Matos foto"
         />
-        <motion.div className="ml-8 flex flex-col">
+        <motion.div className="ml-8 flex flex-col text-center md:w-1/2 md:text-left">
           <p className="text-3xl font-bold">{t("introducing")}</p>
           <p className="mt-4 max-w-2xl text-xl font-light tracking-widest">
             {t("description")}

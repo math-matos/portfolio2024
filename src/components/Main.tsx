@@ -36,7 +36,7 @@ export default function Main() {
           src="https://portfolio2023-math-matos.vercel.app/assets/image/logo-prodigiocode.png"
           alt="prodigiocode"
         />
-        <h1 className="items-center justify-center gap-3 text-center text-8xl font-bold">
+        <h1 className="items-center justify-center gap-3 text-center text-5xl font-bold md:text-7xl lg:text-8xl">
           SOFTWARE <br /> ENGINEER
         </h1>
       </div>
