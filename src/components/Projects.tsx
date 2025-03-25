@@ -51,18 +51,25 @@ export const Projects = () => {
         />
 
         <ExpCard
-          title="Coming soon..."
-          image="https://bestanimations.com/Site/Construction/under-construction-animated-gif-16.gif"
-          description={t("under_construction")}
-          redirect="https://github.com/math-matos?tab=repositories"
+          title="ZatchNFT Community LP"
+          image="https://private-user-images.githubusercontent.com/106177721/426573226-bedc5f8d-412a-4813-9ce2-a30a3899b11b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5MTM0MzAsIm5iZiI6MTc0MjkxMzEzMCwicGF0aCI6Ii8xMDYxNzc3MjEvNDI2NTczMjI2LWJlZGM1ZjhkLTQxMmEtNDgxMy05Y2UyLWEzMGEzODk5YjExYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMyNVQxNDMyMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYjY5OTg1OTcyNjk0M2RjNmNkOTk3MTE3YzkxZjNkY2Y3ZWY3MTBlYTM3M2Y2ZjEzMzM5OWEyMDgwNWEzNWI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4WZ5yLQa-9pmRlA9QlZT-eIWyUyA9cwJXdaRn6EoK0M"
+          description={t("project5")}
+          redirect="https://zatchnft.vercel.app/"
         />
 
         <ExpCard
-          title="Coming soon..."
-          image="https://bestanimations.com/Site/Construction/under-construction-animated-gif-16.gif"
-          description={t("under_construction")}
-          redirect="https://github.com/math-matos?tab=repositories"
+          title="Rent Skins"
+          image="https://private-user-images.githubusercontent.com/106177721/426574907-471f6f07-88f0-4aec-821c-0fe1c5f9866c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5MTMzMTQsIm5iZiI6MTc0MjkxMzAxNCwicGF0aCI6Ii8xMDYxNzc3MjEvNDI2NTc0OTA3LTQ3MWY2ZjA3LTg4ZjAtNGFlYy04MjFjLTBmZTFjNWY5ODY2Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzI1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMyNVQxNDMwMTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYTFkNGIzNzUyZWU0Y2EzNmZjNzgzNzE3M2I5NjZkNzdhOTMwZjNkNGY1NzRmZDM2NTdlODVlMWU2ZjUyNjc4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.BPmGYbX5QPDFJAI2-u-gt5ea1eBhhoR-6EUHiUsJoyc"
+          description={t("project6")}
+          redirect="https://www.rentskins.com.br/"
         />
+
+        {/* <ExpCard
+          title="Rent Skins"
+          image="https://bestanimations.com/Site/Construction/under-construction-animated-gif-16.gif"
+          description={t("project6")}
+          redirect="https://www.rentskins.com.br/"
+        /> */}
       </motion.div>
     </>
   );

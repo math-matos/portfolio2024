@@ -22,7 +22,7 @@ export const ExpCard = ({
         <h3 className="font-medium">{title}</h3>
         <img
           src={image}
-          className="max-h-52 min-h-52 w-96 max-w-96 shadow-lg"
+          className="max-h-52 min-h-52 w-96 max-w-96 rounded-lg shadow-lg"
           alt=""
         />
         <p className="my-2 font-light">{description}</p>
