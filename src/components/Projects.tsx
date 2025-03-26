@@ -52,14 +52,14 @@ export const Projects = () => {
 
         <ExpCard
           title="ZatchNFT Community LP"
-          image="https://i.imgur.com/XoN4uz1.png"
+          image="https://i.imgur.com/W1cN4ot.png"
           description={t("project5")}
           redirect="https://zatchnft.vercel.app/"
         />
 
         <ExpCard
           title="Rent Skins"
-          image="https://i.imgur.com/W1cN4ot.png"
+          image="https://i.imgur.com/XoN4uz1.png"
           description={t("project6")}
           redirect="https://www.rentskins.com.br/"
         />
